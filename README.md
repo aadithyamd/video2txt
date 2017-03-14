@@ -1,6 +1,15 @@
 # video_to_sequence
 * TensorFlow Implementation of [Sequence to Sequence – Video to Text](http://arxiv.org/abs/1505.00487)
 
+
+###Installation
+
+* Install latest CUDA Toolkit & CudNN (for NVIDIA GPU support)
+* Install Tensorflow & Caffe as shown [*here*](http://www.computervisionbytecnalia.com/en/2016/06/deep-learning-development-setup-for-ubuntu-16-04-xenial/)
+* Following python packages are used: numpy, pandas, cv2, skimage, ipdb, tensorflow & caffe 
+
+
+
 ### Usage
 * First you need to download "Microsoft Video Description Corpus"
  * Set "video_data_path" in download_videos.py accordingly.
@@ -29,6 +38,11 @@ BVLC CaffeNet Model |  bvlc_reference_caffenet.caffemodel | http://dl.caffe.berk
 
 
 deploy.protext can be found [*here BVLC/caffe*](https://github.com/BVLC/caffe/tree/master/models/bvlc_reference_caffenet)
+
+
+ilsvrc_2012_mean.npy can be downloaded [*here*](https://github.com/BVLC/caffe/raw/master/python/caffe/imagenet/ilsvrc_2012_mean.npy)
+
+
 
 ### License
 * BSD License
