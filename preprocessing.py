@@ -39,10 +39,10 @@ def preprocess_frame(image, target_height=224, target_width=224):
 
 def main():
     num_frames = 80
-    vgg_model = '/home/taeksoo/Package/caffe/models/vgg/VGG_ILSVRC_19_layers.caffemodel'
-    vgg_deploy = '/home/taeksoo/Package/caffe/models/vgg/VGG_ILSVRC_19_layers_deploy.prototxt'
-    video_path = '/media/storage3/Study/data/youtube_videos'
-    video_save_path = '/media/storage3/Study/data/youtube_feats'
+    vgg_model = '/media/ani/Secondry Storage/videodata/model/VGG_ILSVRC_19_layers.caffemodel'
+    vgg_deploy = '/media/ani/Secondry Storage/videodata/model/VGG_ILSVRC_19_layers_deploy.prototxt'
+    video_path = '/media/ani/Secondry Storage/videodata/YouTubeClips'
+    video_save_path = '/media/ani/Secondry Storage/videodata/youtube_feats'
     videos = os.listdir(video_path)
     videos = filter(lambda x: x.endswith('avi'), videos)
 
