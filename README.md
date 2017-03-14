@@ -14,5 +14,23 @@
 
 ![alt tag](https://github.com/jazzsaxmafia/video_to_sequence/blob/master/plane.jpg)
 
+### Download links
+
+the corpus can be downloaded here:
+[*video_corpus.csv.zip*](https://github.com/jazzsaxmafia/video_to_sequence/files/387979/video_corpus.csv.zip)
+
+Some of the Microsoft Video Description Corpus clips are not available on youtube anymore but here's the full archive:
+https://www.cs.utexas.edu/users/ml/clamp/videoDescription/YouTubeClips.tar (1.7GB)
+from https://www.cs.utexas.edu/users/ml/clamp/videoDescription/#data.
+
+---
+name: BVLC CaffeNet Model
+caffemodel: bvlc_reference_caffenet.caffemodel
+caffemodel_url: http://dl.caffe.berkeleyvision.org/bvlc_reference_caffenet.caffemodel
+license: unrestricted
+sha1: 4c8d77deb20ea792f84eb5e6d0a11ca0a8660a46
+caffe_commit: 709dc15af4a06bebda027c1eb2b3f3e3375d5077
+---
+
 ### License
 * BSD License
