@@ -28,7 +28,7 @@ name | caffemodel | caffemodel_url | license |sha1 | caffe_commit
 BVLC CaffeNet Model |  bvlc_reference_caffenet.caffemodel | http://dl.caffe.berkeleyvision.org/bvlc_reference_caffenet.caffemodel | unrestricted | 4c8d77deb20ea792f84eb5e6d0a11ca0a8660a46 | 709dc15af4a06bebda027c1eb2b3f3e3375d5077
 
 
-
+deploy.protext can be found [*here BVLC/caffe*](https://github.com/BVLC/caffe/tree/master/models/bvlc_reference_caffenet)
 
 ### License
 * BSD License
